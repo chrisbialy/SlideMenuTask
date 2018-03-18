@@ -1,0 +1,368 @@
+   /*Top Slide Menu*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 5px 5px 5px 25px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 700px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+.margin_top {
+    margin-top: 50px !important;
+    
+    
+}
+
+.navbar-brand{
+   			font-size:1.8em;
+            font-weight:bold;
+   			
+   		}
+   		
+   		#topContainer{
+   			background-image:url("../background.jpg") !important;
+   			height:1100px;
+   			width:100%;
+   			background-size: cover;
+   		}
+
+
+        #topContainer2 {
+   			background-image:url("../register.jpg");
+   			height:400px;
+   			width:100%;
+   			background-size:cover;	
+   		}
+
+        .dropMenu_a {
+            margin-left: 140px;
+            font-size: 17px !important;
+            
+    
+            }
+       
+       
+       /*Input Format*/
+       
+       input[type=email] {
+          padding-bottom: 20px;
+          height:17px;
+          border: 0;
+          width: calc(80% - 1px);
+          margin-left:36px;
+          box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+          -webkit-transition: box-shadow 0.3s;
+          transition: box-shadow 0.3s;
+           font-size:0.7em;
+        }
+        input[type=email]:focus {
+          outline: none;
+          box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+        }
+
+
+        input[type=text] {
+          padding-bottom: 20px;
+          height:17px;
+          border: 0;
+          width: calc(80% - 1px);
+          margin-left:36px;
+          box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+          -webkit-transition: box-shadow 0.3s;
+          transition: box-shadow 0.3s;
+           font-size:0.7em;
+        }
+        input[type=text]:focus {
+          outline: none;
+          box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+        }
+
+
+         input[type=password] {
+          padding-bottom: 20px;
+          height:17px;
+          border: 0;
+          width: calc(80% - 1px);
+          margin-left:36px;
+          box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+          -webkit-transition: box-shadow 0.3s;
+          transition: box-shadow 0.3s;
+          font-size:0.7em;
+        }
+        input[type=password]:focus {
+          outline: none;
+          box-shadow: -8px 10px 0px -7px #4EA6EA, 8px 10px 0px -7px #4EA6EA;
+        }
+
+       
+       
+       /*Square Button*/
+       
+       
+       .btn {
+            border-radius: 0;
+            -webkit-transition: all 0.3s;
+               -moz-transition: all 0.3s;
+                    transition: all 0.3s;
+        }
+        .btn-primary {
+            background: #1891F2;
+            color: #FEFEFE;
+            font-size: 0.7em;
+            padding: 15px 100px;
+            text-align: center;
+            border: none;
+            text-decoration: none;
+            display: inline-block;  
+            margin: 4px 2px;
+           
+        }
+
+
+           .btn-primary2 {
+                padding: 9px 47px !important;
+                margin: -2px 2px !important;
+                margin-left: 25px !important;
+        }
+       
+       
+       
+       
+        .btn-primary:hover,
+        .btn-primary:active {
+            color: #FFF;
+            background: #428bca;
+     
+        }
+       
+       
+       
+       .btn-basic {
+            background: #E0E0E0;
+            color: #000000;
+            font-size: 0.7em;
+            padding: 15px 100px;
+            text-align: center;
+            border: none;
+            text-decoration: none;
+            display: inline-block;  
+            margin: 4px 2px;
+            
+       }
+       
+       .btn-basic:hover,
+       .btn-basic:active {
+            color: #000;
+            background: #F6F6F6;
+     
+        }
+       
+       
+       
+    
+       
+       /*Button Position*/
+       
+       
+       #wrapper {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+        }
+       
+       #wrapper2 {
+          width: 100%;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        #wrapper3 {
+          margin-top: 25px !important;
+          width: 58%;
+          height: 40px;
+          display: flex;
+          align-items: left;
+          justify-content: center;
+          margin-left: 41px !important;
+        }
+
+        
+
+        #btn_account {
+    
+            text-decoration: none !important;
+            text-align: center!important;
+            padding: 11px 50px 11px 50px !important;
+
+        }
+       
+       
+         
+     /*DIV LOGIN HASŁO SPACE*/
+       
+       
+       .DivSpace {
+            padding: 25px 0px 25px 0px;
+           
+       }
+       
+        .DivSpace2 {
+            
+           
+       }
+       
+       .liSpace {
+           padding: 0px 350px 0px 0px;
+           
+       }
+       
+      /*Right Slide Menu */
+       
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #FFF;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            opacity: 0.9;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: underline;
+            font-size: 0.7em;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+            text-align: right;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+
+        @media screen and (max-height: 700px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+    }
+       
+       .hexagon_img {
+            background-image:url("../hexagon.png");
+   			background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+            padding: 0px 0px 0px 0px;
+            margin-bottom: 15px;
+       }
+
+
+        .hexagon_img2 {
+            background-image:url("../hexagon2.png");
+   			background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center top;
+            padding: 15px 25px 25px 25px;
+            margin-bottom: 15px;
+            margin-top: 25px;
+            margin-top: 25px;
+       }
+       
+       .p_style {
+           
+           font-weight: bold;
+           
+           
+       }
+       
+       
+ 
+        @media only screen and (min-width: 1582px) {
+            svg {
+                transform: translate(159px, 8px) !important;
+            }
+        
+    }
+       
+       @media only screen and (max-width: 1583px) {
+            svg {
+                transform: translate(158px, 8px) !important;
+            }
+           
+           @media only screen and (max-width: 300px) {
+            svg {
+                transform: translate(250px, 8px) !important;
+            }
+            
+            
+    
+           
+ 
+
+
+    
